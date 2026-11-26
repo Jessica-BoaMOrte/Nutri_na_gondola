@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Fornecedor | Nutrição na Gôndola</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="../css/dashboardsupermercado.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="brand-area">
+            <div class="brand-badge">
+                <span class="text-green"><i class="fa-solid fa-square-plus"></i> SANTA CASA</span>
+                <span class="text-muted">|</span>
+                <span class="text-sonda">Sonda</span>
+            </div>
+        </div>
+        <div class="user-profile">
+            <span class="profile-name" data-usuario-nome>Fornecedor(a)</span>
+            <img class="profile-image" src="../assets/img/usuarios/avatar-fornecedor.svg" alt="Avatar">
+            <i class="fa-solid fa-chevron-down chevron-small"></i>
+        </div>
+    </header>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <nav>
+                <ul class="sidebar-menu">
+                    <li><button class="menu-item-btn active" id="menu-perfil" onclick="switchView('perfil')"><i class="fa-regular fa-user menu-icon"></i>Perfil</button></li>
+                    <li><button class="menu-item-btn" id="menu-hortifruti" onclick="switchView('hortifruti')"><i class="fa-solid fa-carrot menu-icon"></i>Hortifrúti</button></li>
+                    <li><button class="menu-item-btn" id="menu-fornecedor" onclick="switchView('fornecedor')"><i class="fa-solid fa-handshake menu-icon"></i>Fornecedor</button></li>
+                    <li><button class="menu-item-btn" id="menu-local" onclick="switchView('local')"><i class="fa-solid fa-location-dot menu-icon"></i>Local</button></li>
+                    <li><button class="menu-item-btn" id="menu-mercado" onclick="switchView('mercado')"><i class="fa-solid fa-shop menu-icon"></i>Mercado</button></li>
+                    <li><button class="menu-item-btn" id="menu-relatorios" onclick="switchView('relatorios')"><i class="fa-regular fa-file-lines menu-icon"></i>Relatórios</button></li>
+                    <li><button class="menu-item-btn" id="menu-configuracoes" onclick="switchView('configuracoes')"><i class="fa-solid fa-gear menu-icon"></i>Configurações</button></li>
+                    <li><a class="menu-item-btn" href="../login.html" data-sair><i class="fa-solid fa-right-from-bracket menu-icon"></i>Sair</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content" id="mainViewport">
+            </main>
+    </div>
+
+    <div class="modal-overlay" id="globalModal">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 id="modalTitle">Adicionar Informações</h3>
+                <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <form id="modalForm" onsubmit="handleModalSubmit(event)">
+                <div class="modal-body" id="modalBody"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-secondary" onclick="closeModal()">Cancelar</button>
+                    <button type="submit" class="btn-prime">Confirmar e Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/api.js" defer></script>
+    <script src="../js/dashboardsupermercado.js" defer></script>
+</body>
+</html>
