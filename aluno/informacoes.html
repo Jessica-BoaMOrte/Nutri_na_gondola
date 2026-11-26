@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Informações | Nutrição na Gôndola</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/legacy.css">
+</head>
+
+<body data-perfil="aluno" data-page="criar">
+
+    <div class="container">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <h2>Portal do Aluno</h2>
+            </div>
+            <nav class="menu" aria-label="Menu do portal">
+                <a href="dashboardaluno.html"><i class="fa-solid fa-house" aria-hidden="true"></i>Dashboard</a>
+                <a href="informacoes.html" class="active"><i class="fa-solid fa-plus" aria-hidden="true"></i>Criar Informações</a>
+                <a href="historico.html"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i>Histórico</a>
+                <a href="../login.html" data-sair><i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>Sair</a>
+            </nav>
+        </aside>
+
+        <!-- CONTEÚDO -->
+        <main class="content">
+
+            <header>
+                <div>
+                    <h1>Criar Informações</h1>
+                    <p>Escolha o tipo de informação que deseja cadastrar.</p>
+                </div>
+            </header>
+
+            <section class="cards-container">
+                <a href="receita.html" class="card">
+                    <div class="icone"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i></div>
+                    <h3>Adicionar Receita</h3>
+                    <p>Cadastre receitas relacionadas aos alimentos.</p>
+                </a>
+                <a href="nutricional.html" class="card">
+                    <div class="icone"><i class="fa-solid fa-apple-whole" aria-hidden="true"></i></div>
+                    <h3>Componentes Nutricionais</h3>
+                    <p>Informe calorias, proteínas, carboidratos e outros nutrientes.</p>
+                </a>
+                <a href="img.html" class="card">
+                    <div class="icone"><i class="fa-solid fa-camera" aria-hidden="true"></i></div>
+                    <h3>Adicionar Imagens</h3>
+                    <p>Faça upload de imagens dos alimentos.</p>
+                </a>
+            </section>
+
+            <footer>
+                © 2025 Faculdade de Ciências Médicas da Santa Casa de São Paulo.
+                <br>
+                Todos os direitos reservados.
+            </footer>
+
+        </main>
+
+    </div>
+
+    <script src="../js/api.js" defer></script>
+    <script src="../js/painel.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações Nutricionais | Nutrição na Gôndola</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/legacy.css">
+    <link rel="stylesheet" href="../css/nutricional.css">
+</head>
+
+<body data-perfil="aluno" data-page="nutricional">
+
+    <div class="container">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <h2>Portal do Aluno</h2>
+            </div>
+            <nav class="menu" aria-label="Menu do portal">
+                <a href="dashboardaluno.html"><i class="fa-solid fa-house" aria-hidden="true"></i>Dashboard</a>
+                <a href="informacoes.html" class="active"><i class="fa-solid fa-plus" aria-hidden="true"></i>Criar Informações</a>
+                <a href="historico.html"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i>Histórico</a>
+                <a href="../login.html" data-sair><i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>Sair</a>
+            </nav>
+        </aside>
+
+        <!-- CONTEÚDO -->
+        <main class="content">
+
+            <header>
+                <div>
+                    <h1>Componentes Nutricionais</h1>
+                    <p>Cadastre as informações nutricionais de um alimento (valores por 100 g).</p>
+                </div>
+            </header>
+
+            <form class="formulario" data-form="nutricional">
+                <div class="campo">
+                    <label for="alimento">Alimento relacionado</label>
+                    <input id="alimento" name="alimento" type="text" list="lista-alimentos" placeholder="Ex: Banana" required autocomplete="off">
+                </div>
+                <datalist id="lista-alimentos"></datalist>
+                <div class="linha">
+                    <div class="campo">
+                        <label for="calorias">Calorias (kcal)</label>
+                        <input id="calorias" name="calorias" type="number" min="0" step="any">
+                    </div>
+                    <div class="campo">
+                        <label for="proteinas">Proteínas (g)</label>
+                        <input id="proteinas" name="proteinas" type="number" min="0" step="any">
+                    </div>
+                </div>
+                <div class="linha">
+                    <div class="campo">
+                        <label for="carboidratos">Carboidratos (g)</label>
+                        <input id="carboidratos" name="carboidratos" type="number" min="0" step="any">
+                    </div>
+                    <div class="campo">
+                        <label for="gorduras">Gorduras Totais (g)</label>
+                        <input id="gorduras" name="gorduras" type="number" min="0" step="any">
+                    </div>
+                </div>
+                <div class="linha">
+                    <div class="campo">
+                        <label for="fibras">Fibras (g)</label>
+                        <input id="fibras" name="fibras" type="number" min="0" step="any">
+                    </div>
+                    <div class="campo">
+                        <label for="sodio">Sódio (mg)</label>
+                        <input id="sodio" name="sodio" type="number" min="0" step="any">
+                    </div>
+                </div>
+                <div class="campo">
+                    <label for="vitaminas">Vitaminas</label>
+                    <textarea id="vitaminas" name="vitaminas" rows="4" placeholder="Ex: Vitamina A, Vitamina C, Vitamina B6..."></textarea>
+                </div>
+                <div class="campo">
+                    <label for="minerais">Minerais</label>
+                    <textarea id="minerais" name="minerais" rows="4" placeholder="Ex: Potássio, Ferro, Magnésio..."></textarea>
+                </div>
+                <div class="campo">
+                    <label for="obs">Observações</label>
+                    <textarea id="obs" name="obs" rows="5" placeholder="Informações adicionais sobre o alimento (cite a fonte: TACO, TBCA...)"></textarea>
+                </div>
+                <button type="submit">Salvar Informações Nutricionais</button>
+                <p id="form-msg" class="msg" role="status"></p>
+            </form>
+
+            <footer>
+                © 2025 Faculdade de Ciências Médicas da Santa Casa de São Paulo.
+                <br>
+                Todos os direitos reservados.
+            </footer>
+
+        </main>
+
+    </div>
+
+    <script src="../js/api.js" defer></script>
+    <script src="../js/painel.js" defer></script>
+</body>
+
+</html>
