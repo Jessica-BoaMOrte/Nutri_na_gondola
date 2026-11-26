@@ -1,0 +1,27 @@
+{
+  "nome": "Nutrição na Gôndola",
+  "projeto": "PIC Nutrição — Sonda Supermercados",
+  "instituicao": "Faculdade de Ciências Médicas da Santa Casa de São Paulo",
+  "desenvolvedoras": [
+    "Beatriz Feitosa",
+    "Caroline Dias",
+    "Jessica Boa Morte"
+  ],
+  "cores": {
+    "verde": "#006a38",
+    "verdeEscuro": "#004d2b",
+    "laranja": "#ef7d23"
+  },
+  "publicacao": {
+    "urlBase": "",
+    "observacao": "Opcional. Se vazio, os QR Codes usam o endereço em que o site está aberto."
+  },
+  "marca": {
+    "logo": "assets/sonda-logo.svg",
+    "observacao": "Marca tipográfica provisória; substituir pelo arquivo oficial autorizado"
+  },
+  "api": {
+    "base": "",
+    "observacao": "Deixe vazio se o site e o servidor estão no mesmo endereço. Se o servidor estiver em outro lugar, coloque aqui a URL dele."
+  }
+}
