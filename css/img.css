@@ -1,0 +1,6 @@
+/* Aluno › Adicionar Imagem (aluno/img.html) */
+.preview { margin: 18px 0; }
+.preview > p { font-weight: 600; margin: 0 0 8px; }
+.preview-box { min-height: 220px; border: 2px dashed #c9d8ce; border-radius: 14px; background: #fafcfb; display: grid; place-items: center; color: #67776b; overflow: hidden; }
+.preview-box img { max-width: 100%; max-height: 320px; display: block; }
+input[type="file"] { padding: 9px; background: #fafcfb; }

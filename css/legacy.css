@@ -1,0 +1,104 @@
+/* =========================================================================
+   Painéis do Aluno e do Professor — estilos compartilhados
+   Páginas: aluno/*.html e professor/*.html
+   (estilos específicos: edicao.css, img.css, nutricional.css)
+   ========================================================================= */
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.6 Inter, Arial, sans-serif; background: #f4f7f5; color: #23332a; }
+a { color: inherit; }
+
+/* ---------- Estrutura ---------- */
+.container { display: flex; min-height: 100vh; }
+.sidebar { width: 240px; flex-shrink: 0; background: #064b2c; color: #fff; padding: 25px 16px; }
+.sidebar h2 { font-size: 19px; margin: 0 0 18px; }
+.sidebar-title, .logo-area { margin-bottom: 4px; }
+.menu { display: flex; flex-direction: column; gap: 5px; }
+.menu a { display: block; color: #e9f5ee; padding: 12px; border-radius: 8px; text-decoration: none; }
+.menu a i { width: 22px; margin-right: 6px; text-align: center; }
+.menu a:hover, .menu a.active { background: #14784c; }
+.content { padding: 35px; flex: 1; min-width: 0; }
+.content header { margin-bottom: 25px; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+.content header p { margin: 4px 0 0; color: #55665a; }
+.content h1 { font-size: 30px; margin: 0; }
+.header-logos img { max-height: 48px; width: auto; display: block; }
+.logo-texto { font-weight: 800; color: #006a38; letter-spacing: -.02em; }
+
+/* ---------- Perfil (cabeçalho dos dashboards) ---------- */
+.perfil { display: flex; align-items: center; gap: 12px; text-align: right; }
+.perfil h4 { margin: 0; font-size: 15px; }
+.perfil span { font-size: 12px; color: #67776b; }
+.perfil img { width: 44px; height: 44px; border-radius: 50%; background: #e1f2e7; }
+
+/* ---------- Grades e cartões ---------- */
+.cards-container, .cards, .resumo { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin: 20px 0; }
+.card, .card-principal, .resumo-card, .info-card, .formulario, .categoria, .welcome {
+    background: #fff; padding: 24px; border-radius: 14px; border: 1px solid #dfe8e1;
+    margin-bottom: 16px; display: block; color: inherit; text-decoration: none;
+}
+a.card, a.card-principal { transition: transform .15s, border-color .15s; }
+a.card:hover, a.card-principal:hover { transform: translateY(-3px); border-color: #006a38; }
+.cards .card, .cards-container .card, .cards-container .card-principal { margin-bottom: 0; }
+.icone, .icone-card { width: 48px; height: 48px; border-radius: 12px; background: #e1f2e7; color: #006a38; display: grid; place-items: center; font-size: 20px; margin-bottom: 12px; }
+.card h3, .card-principal h3 { margin: 0 0 6px; }
+.card p, .card-principal p { margin: 0; color: #55665a; }
+.resumo-card h3, .resumo-card h4 { margin: 0; font-size: 28px; color: #006a38; }
+.resumo-card h4 { font-size: 15px; color: #23332a; }
+.resumo-card span { color: #55665a; font-size: 14px; }
+.categoria h2 { margin-top: 0; font-size: 20px; }
+.categoria h2 i { color: #006a38; margin-right: 6px; }
+.welcome h2 { margin-top: 0; }
+
+/* ---------- Formulários ---------- */
+.campo { margin: 15px 0; }
+.campo label { display: block; font-weight: 600; margin-bottom: 6px; }
+input, textarea, select { width: 100%; padding: 11px; border: 1px solid #c9d8ce; border-radius: 8px; font: inherit; background: #fff; }
+input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-visible, .menu a:focus-visible { outline: 3px solid #14784c55; outline-offset: 1px; }
+button { background: #006a38; color: #fff; border: 0; padding: 11px 16px; border-radius: 8px; cursor: pointer; font: inherit; font-weight: 600; }
+button:hover { background: #004d2b; }
+.linha { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.msg { margin: 14px 0 0; font-weight: 600; color: #006a38; min-height: 1.4em; }
+.msg.erro { color: #b92f36; }
+
+/* ---------- Ações e status ---------- */
+.acoes { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.aprovar { background: #006a38; }
+.editar { background: #14784c; }
+.rejeitar, .excluir { background: #b92f36; }
+.rejeitar:hover, .excluir:hover { background: #8f2429; }
+.status { display: inline-block; font-weight: 700; color: #006a38; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; }
+.status.pendente { color: #b26a00; }
+.status.aprovado { color: #006a38; }
+.status.rejeitado { color: #b92f36; }
+.info-card h3 { margin: 0 0 8px; }
+.info-card p { margin: 4px 0; }
+.info-card .thumb { width: 120px; height: 90px; object-fit: cover; border-radius: 8px; border: 1px solid #dfe8e1; margin: 8px 0; display: block; }
+.vazio { padding: 28px; text-align: center; color: #67776b; background: #fff; border: 1px dashed #c9d8ce; border-radius: 14px; }
+.imagem-placeholder { height: 110px; display: grid; place-items: center; font-size: 36px; background: #edf3ee; border-radius: 10px; margin-bottom: 10px; overflow: hidden; }
+.imagem-placeholder img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- Caixa de edição ---------- */
+dialog { border: 0; border-radius: 16px; padding: 26px; width: min(520px, calc(100% - 32px)); box-shadow: 0 25px 70px #0b2a1a55; }
+dialog::backdrop { background: #0b2a1a66; }
+dialog h3 { margin: 0 0 8px; }
+dialog .acoes { justify-content: flex-end; }
+dialog .secundario { background: #eef4ef; color: #145b36; }
+
+footer { margin-top: 30px; padding-top: 18px; border-top: 1px solid #dfe8e1; color: #67776b; font-size: 12px; text-align: center; line-height: 1.7; }
+
+@media (max-width: 720px) {
+    .container { display: block; }
+    .sidebar { width: 100%; padding: 14px; }
+    .menu { flex-direction: row; flex-wrap: wrap; }
+    .menu a { padding: 7px 10px; }
+    .content { padding: 20px; }
+    .linha { grid-template-columns: 1fr; }
+    .perfil { text-align: left; }
+}
+
+/* ---------- Arquivos JSON (dashboard do professor) ---------- */
+.tabela-json-area { overflow-x: auto; }
+.tabela-json { width: 100%; border-collapse: collapse; font-size: 14px; }
+.tabela-json th, .tabela-json td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3ece6; white-space: nowrap; }
+.tabela-json th { color: #55665a; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+.tabela-json code { background: #eef4ef; padding: 2px 6px; border-radius: 6px; }
+.json-conteudo { max-height: 380px; overflow: auto; background: #0f1f17; color: #d8f3e3; padding: 16px; border-radius: 12px; font-size: 12px; line-height: 1.5; margin: 14px 0 0; }

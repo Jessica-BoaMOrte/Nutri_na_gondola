@@ -1,0 +1,7 @@
+/* Professor › Editar / Excluir (professor/edicao.html) */
+.tipo { display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; margin-bottom: 8px; }
+.tipo.receita { background: #fde9d4; color: #9a4b00; }
+.tipo.nutricional { background: #e1f2e7; color: #006a38; }
+.tipo.imagem { background: #e5eef9; color: #1f4f8f; }
+.info-card .acoes button i { margin-right: 6px; }
+.info-card .origem { font-size: 12px; color: #67776b; }

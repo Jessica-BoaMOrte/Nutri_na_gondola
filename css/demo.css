@@ -1,0 +1,6 @@
+/* Faixa exibida no modo demonstração (site publicado sem servidor) */
+.faixa-demo { position: fixed; left: 0; right: 0; bottom: 0; z-index: 9999; display: flex; gap: 16px; justify-content: center; align-items: center; flex-wrap: wrap; padding: 10px 16px; background: #004d2b; color: #fff; font: 13px/1.4 Inter, Arial, sans-serif; text-align: center; box-shadow: 0 -4px 20px #0003; }
+.faixa-demo strong { color: #ffd9a8; }
+.faixa-demo a { color: #fff; font-weight: 700; text-decoration: underline; white-space: nowrap; }
+.tem-faixa-demo { padding-bottom: 56px; }
+@media (max-width: 600px) { .tem-faixa-demo { padding-bottom: 96px; } }
