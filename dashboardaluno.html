@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Aluno | Nutrição na Gôndola</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/legacy.css">
+</head>
+
+<body data-perfil="aluno" data-page="dash-aluno">
+
+    <div class="container">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <h2>Portal do Aluno</h2>
+            </div>
+            <nav class="menu" aria-label="Menu do portal">
+                <a href="dashboardaluno.html" class="active"><i class="fa-solid fa-house" aria-hidden="true"></i>Dashboard</a>
+                <a href="informacoes.html"><i class="fa-solid fa-plus" aria-hidden="true"></i>Criar Informações</a>
+                <a href="historico.html"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i>Histórico</a>
+                <a href="../login.html" data-sair><i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>Sair</a>
+            </nav>
+        </aside>
+
+        <!-- CONTEÚDO -->
+        <main class="content">
+
+            <header>
+                <div class="header-logos">
+                    <img src="https://fcmsantacasasp.edu.br/vemprasanta/wp-content/themes/fcm-new/assets/imgs/logo.png"
+                         alt="Santa Casa" data-fallback-texto="Santa Casa de São Paulo">
+                </div>
+                <div class="perfil">
+                    <div>
+                        <h4 data-usuario-nome>Aluno(a)</h4>
+                        <span>Aluno(a)</span>
+                    </div>
+                    <img src="../assets/img/usuarios/avatar-aluno.svg" alt="Avatar do usuário">
+                </div>
+            </header>
+
+            <section class="welcome">
+                <h2>Olá, <span data-usuario-nome>Aluno(a)</span> 👋</h2>
+                <p>Bem-vindo(a) ao sistema de cadastro de alimentos.</p>
+                <p>Aqui você poderá adicionar receitas, informações nutricionais e imagens dos alimentos, além de consultar tudo o que já foi cadastrado.</p>
+            </section>
+
+            <section class="cards-container">
+                <a href="informacoes.html" class="card-principal">
+                    <div class="icone-card"><i class="fa-solid fa-plus" aria-hidden="true"></i></div>
+                    <h3>Criar Informações</h3>
+                    <p>Adicione novas receitas, componentes nutricionais e imagens dos alimentos.</p>
+                </a>
+                <a href="historico.html" class="card-principal">
+                    <div class="icone-card"><i class="fa-solid fa-folder-open" aria-hidden="true"></i></div>
+                    <h3>Histórico</h3>
+                    <p>Consulte todas as informações adicionadas anteriormente.</p>
+                </a>
+            </section>
+
+            <section class="resumo" aria-label="Resumo dos cadastros">
+                <div class="resumo-card"><h4>Receitas</h4><span><strong data-contagem="receita">0</strong> cadastradas</span></div>
+                <div class="resumo-card"><h4>Informações Nutricionais</h4><span><strong data-contagem="nutricional">0</strong> cadastradas</span></div>
+                <div class="resumo-card"><h4>Imagens</h4><span><strong data-contagem="imagem">0</strong> cadastradas</span></div>
+            </section>
+
+            <footer>
+                © 2025 Faculdade de Ciências Médicas da Santa Casa de São Paulo.
+                <br>
+                Todos os direitos reservados.
+            </footer>
+
+        </main>
+
+    </div>
+
+    <script src="../js/api.js" defer></script>
+    <script src="../js/painel.js" defer></script>
+</body>
+
+</html>
