@@ -1,0 +1,913 @@
+[
+  {
+    "id": "alimento-001",
+    "nome": "Banana",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/banana.jpg",
+    "descricao": "Banana: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "89 kcal",
+      "Proteínas": "1.1 g",
+      "Carboidratos": "22.8 g",
+      "Gorduras totais": "0.3 g",
+      "Fibras": "2.6 g"
+    },
+    "receitas": [
+      {
+        "nome": "Panqueca de banana e aveia",
+        "ingredientes": [
+          "1 banana madura",
+          "1 ovo",
+          "2 colheres (sopa) de aveia"
+        ],
+        "preparo": [
+          "Amasse a banana.",
+          "Misture com o ovo e a aveia.",
+          "Doure pequenas porções em frigideira antiaderente dos dois lados."
+        ],
+        "tempo": "15 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "banana",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/banana.svg"
+  },
+  {
+    "id": "alimento-002",
+    "nome": "Maçã",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/maca.jpg",
+    "descricao": "Maçã: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "52 kcal",
+      "Proteínas": "0.3 g",
+      "Carboidratos": "13.8 g",
+      "Gorduras totais": "0.2 g",
+      "Fibras": "2.4 g"
+    },
+    "receitas": [
+      {
+        "nome": "Maçã assada com canela",
+        "ingredientes": [
+          "1 maçã",
+          "Canela em pó a gosto",
+          "1 colher (sopa) de água"
+        ],
+        "preparo": [
+          "Lave e corte a maçã em metades, retirando as sementes.",
+          "Polvilhe canela e adicione a água à assadeira.",
+          "Asse a 180 °C por cerca de 20 minutos ou até amaciar."
+        ],
+        "tempo": "25 minutos",
+        "rendimento": "1 porção",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "maca",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/maca.svg"
+  },
+  {
+    "id": "alimento-003",
+    "nome": "Tomate",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/tomate.jpg",
+    "descricao": "Tomate: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "18 kcal",
+      "Proteínas": "0.9 g",
+      "Carboidratos": "3.9 g",
+      "Gorduras totais": "0.2 g",
+      "Fibras": "1.2 g"
+    },
+    "receitas": [
+      {
+        "nome": "Salada de tomate com ervas",
+        "ingredientes": [
+          "2 tomates",
+          "1 colher (chá) de azeite",
+          "Salsinha e manjericão a gosto"
+        ],
+        "preparo": [
+          "Lave e corte os tomates.",
+          "Misture com as ervas e o azeite.",
+          "Sirva imediatamente."
+        ],
+        "tempo": "10 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "tomate",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/tomate.svg"
+  },
+  {
+    "id": "alimento-004",
+    "nome": "Cenoura",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/cenoura.jpg",
+    "descricao": "Cenoura: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "41 kcal",
+      "Proteínas": "0.9 g",
+      "Carboidratos": "9.6 g",
+      "Gorduras totais": "0.2 g",
+      "Fibras": "2.8 g"
+    },
+    "receitas": [
+      {
+        "nome": "Cenoura assada com ervas",
+        "ingredientes": [
+          "2 cenouras",
+          "1 colher (chá) de azeite",
+          "Alecrim a gosto"
+        ],
+        "preparo": [
+          "Lave, descasque se desejar e corte as cenouras.",
+          "Misture com azeite e alecrim.",
+          "Asse a 200 °C por 25 a 30 minutos, até ficarem macias."
+        ],
+        "tempo": "35 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "cenoura",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/cenoura.svg"
+  },
+  {
+    "id": "alimento-005",
+    "nome": "Alface",
+    "categoria": "Verduras",
+    "imagem": "assets/img/alimentos/alface.jpg",
+    "descricao": "Alface: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "15 kcal",
+      "Proteínas": "1.4 g",
+      "Carboidratos": "2.9 g",
+      "Gorduras totais": "0.2 g",
+      "Fibras": "1.3 g"
+    },
+    "receitas": [
+      {
+        "nome": "Salada crocante de alface",
+        "ingredientes": [
+          "4 folhas de alface",
+          "1 pepino pequeno",
+          "Suco de meio limão",
+          "1 colher (chá) de azeite"
+        ],
+        "preparo": [
+          "Higienize e seque as folhas.",
+          "Fatie o pepino e rasgue a alface.",
+          "Misture e tempere na hora de servir."
+        ],
+        "tempo": "10 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "alface",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/alface.svg"
+  },
+  {
+    "id": "alimento-006",
+    "nome": "Batata-doce",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/batata-doce.jpg",
+    "descricao": "Batata-doce: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "86 kcal",
+      "Proteínas": "1.6 g",
+      "Carboidratos": "20.1 g",
+      "Gorduras totais": "0.1 g",
+      "Fibras": "3.0 g"
+    },
+    "receitas": [
+      {
+        "nome": "Batata-doce rústica assada",
+        "ingredientes": [
+          "1 batata-doce média",
+          "1 colher (chá) de azeite",
+          "Páprica e alecrim a gosto"
+        ],
+        "preparo": [
+          "Lave bem e corte em palitos grossos.",
+          "Misture com azeite e temperos.",
+          "Asse a 200 °C por 30 a 40 minutos, virando na metade."
+        ],
+        "tempo": "45 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "batata-doce",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/batata-doce.svg"
+  },
+  {
+    "id": "alimento-007",
+    "nome": "Abobrinha",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/abobrinha.jpg",
+    "descricao": "Abobrinha: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "17 kcal",
+      "Proteínas": "1.2 g",
+      "Carboidratos": "3.1 g",
+      "Gorduras totais": "0.3 g",
+      "Fibras": "1.0 g"
+    },
+    "receitas": [
+      {
+        "nome": "Abobrinha refogada",
+        "ingredientes": [
+          "1 abobrinha",
+          "1 dente de alho",
+          "1 colher (chá) de azeite"
+        ],
+        "preparo": [
+          "Lave e corte a abobrinha em meias-luas.",
+          "Aqueça o azeite e doure levemente o alho.",
+          "Acrescente a abobrinha e cozinhe por 5 a 8 minutos."
+        ],
+        "tempo": "15 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "abobrinha",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/abobrinha.svg"
+  },
+  {
+    "id": "alimento-008",
+    "nome": "Abóbora",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/abobora.jpg",
+    "descricao": "Conheça o alimento abóbora, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "abobora",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/abobora.svg"
+  },
+  {
+    "id": "alimento-009",
+    "nome": "Berinjela",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/berinjela.jpg",
+    "descricao": "Conheça o alimento berinjela, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "berinjela",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/berinjela.svg"
+  },
+  {
+    "id": "alimento-010",
+    "nome": "Beterraba",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/beterraba.jpg",
+    "descricao": "Beterraba: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "43 kcal",
+      "Proteínas": "1.6 g",
+      "Carboidratos": "9.6 g",
+      "Gorduras totais": "0.2 g",
+      "Fibras": "2.8 g"
+    },
+    "receitas": [
+      {
+        "nome": "Salada de beterraba com limão",
+        "ingredientes": [
+          "1 beterraba",
+          "Suco de meio limão",
+          "1 colher (chá) de azeite"
+        ],
+        "preparo": [
+          "Lave e cozinhe a beterraba até ficar macia.",
+          "Espere esfriar e corte em cubos.",
+          "Tempere com limão e azeite."
+        ],
+        "tempo": "40 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "beterraba",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/beterraba.svg"
+  },
+  {
+    "id": "alimento-011",
+    "nome": "Brócolis",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/brocolis.jpg",
+    "descricao": "Brócolis: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "34 kcal",
+      "Proteínas": "2.8 g",
+      "Carboidratos": "6.6 g",
+      "Gorduras totais": "0.4 g",
+      "Fibras": "2.6 g"
+    },
+    "receitas": [
+      {
+        "nome": "Brócolis ao alho",
+        "ingredientes": [
+          "1 maço pequeno de brócolis",
+          "1 dente de alho",
+          "1 colher (chá) de azeite"
+        ],
+        "preparo": [
+          "Higienize e separe os floretes.",
+          "Cozinhe no vapor até ficarem macios, mas firmes.",
+          "Misture com alho rapidamente refogado no azeite."
+        ],
+        "tempo": "20 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "brocolis",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/brocolis.svg"
+  },
+  {
+    "id": "alimento-012",
+    "nome": "Couve",
+    "categoria": "Verduras",
+    "imagem": "assets/img/alimentos/couve.jpg",
+    "descricao": "Couve: conheça a composição nutricional aproximada e uma sugestão prática de preparo. Conteúdo educativo em revisão.",
+    "nutrientes": {
+      "Energia": "35 kcal",
+      "Proteínas": "2.9 g",
+      "Carboidratos": "4.4 g",
+      "Gorduras totais": "1.5 g",
+      "Fibras": "4.1 g"
+    },
+    "receitas": [
+      {
+        "nome": "Couve refogada",
+        "ingredientes": [
+          "4 folhas de couve",
+          "1 dente de alho",
+          "1 colher (chá) de azeite"
+        ],
+        "preparo": [
+          "Higienize, retire os talos grossos e fatie as folhas.",
+          "Aqueça o azeite e refogue o alho.",
+          "Junte a couve e mexa por 2 a 4 minutos."
+        ],
+        "tempo": "12 minutos",
+        "rendimento": "2 porções",
+        "status": "receita demonstrativa, pendente de revisão"
+      }
+    ],
+    "revisadoPorNutricionista": false,
+    "slug": "couve",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": "Valores aproximados de referência para alimento cru, por 100 g; fonte e variedade ainda precisam ser conferidas com TBCA/TACO pela equipe de Nutrição.",
+    "statusPublicacao": "demonstracao_pendente_revisao",
+    "imagemCredito": null,
+    "destaque": true,
+    "imagemLocal": "assets/img/alimentos/couve.svg"
+  },
+  {
+    "id": "alimento-013",
+    "nome": "Couve-flor",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/couve-flor.jpg",
+    "descricao": "Conheça o alimento couve-flor, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "couve-flor",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/couve-flor.svg"
+  },
+  {
+    "id": "alimento-014",
+    "nome": "Espinafre",
+    "categoria": "Verduras",
+    "imagem": "assets/img/alimentos/espinafre.jpg",
+    "descricao": "Conheça o alimento espinafre, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "espinafre",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/espinafre.svg"
+  },
+  {
+    "id": "alimento-015",
+    "nome": "Pepino",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/pepino.jpg",
+    "descricao": "Conheça o alimento pepino, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "pepino",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/pepino.svg"
+  },
+  {
+    "id": "alimento-016",
+    "nome": "Pimentão",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/pimentao.jpg",
+    "descricao": "Conheça o alimento pimentão, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "pimentao",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/pimentao.svg"
+  },
+  {
+    "id": "alimento-017",
+    "nome": "Repolho",
+    "categoria": "Verduras",
+    "imagem": "assets/img/alimentos/repolho.jpg",
+    "descricao": "Conheça o alimento repolho, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "repolho",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/repolho.svg"
+  },
+  {
+    "id": "alimento-018",
+    "nome": "Rúcula",
+    "categoria": "Verduras",
+    "imagem": "assets/img/alimentos/rucula.jpg",
+    "descricao": "Conheça o alimento rúcula, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "rucula",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/rucula.svg"
+  },
+  {
+    "id": "alimento-019",
+    "nome": "Chuchu",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/chuchu.jpg",
+    "descricao": "Conheça o alimento chuchu, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "chuchu",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/chuchu.svg"
+  },
+  {
+    "id": "alimento-020",
+    "nome": "Vagem",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/vagem.jpg",
+    "descricao": "Conheça o alimento vagem, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "vagem",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/vagem.svg"
+  },
+  {
+    "id": "alimento-021",
+    "nome": "Quiabo",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/quiabo.jpg",
+    "descricao": "Conheça o alimento quiabo, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "quiabo",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/quiabo.svg"
+  },
+  {
+    "id": "alimento-022",
+    "nome": "Rabanete",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/rabanete.jpg",
+    "descricao": "Conheça o alimento rabanete, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "rabanete",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/rabanete.svg"
+  },
+  {
+    "id": "alimento-023",
+    "nome": "Cebola",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/cebola.jpg",
+    "descricao": "Conheça o alimento cebola, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "cebola",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/cebola.svg"
+  },
+  {
+    "id": "alimento-024",
+    "nome": "Alho",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/alho.jpg",
+    "descricao": "Conheça o alimento alho, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "alho",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/alho.svg"
+  },
+  {
+    "id": "alimento-025",
+    "nome": "Batata",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/batata.jpg",
+    "descricao": "Conheça o alimento batata, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "batata",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/batata.svg"
+  },
+  {
+    "id": "alimento-026",
+    "nome": "Mandioca",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/mandioca.jpg",
+    "descricao": "Conheça o alimento mandioca, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "mandioca",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/mandioca.svg"
+  },
+  {
+    "id": "alimento-027",
+    "nome": "Milho",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/milho.jpg",
+    "descricao": "Conheça o alimento milho, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "milho",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/milho.svg"
+  },
+  {
+    "id": "alimento-028",
+    "nome": "Limão",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/limao.jpg",
+    "descricao": "Conheça o alimento limão, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "limao",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/limao.svg"
+  },
+  {
+    "id": "alimento-029",
+    "nome": "Laranja",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/laranja.jpg",
+    "descricao": "Conheça o alimento laranja, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "laranja",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/laranja.svg"
+  },
+  {
+    "id": "alimento-030",
+    "nome": "Mamão",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/mamao.jpg",
+    "descricao": "Conheça o alimento mamão, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "mamao",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/mamao.svg"
+  },
+  {
+    "id": "alimento-031",
+    "nome": "Manga",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/manga.jpg",
+    "descricao": "Conheça o alimento manga, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "manga",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/manga.svg"
+  },
+  {
+    "id": "alimento-032",
+    "nome": "Morango",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/morango.jpg",
+    "descricao": "Conheça o alimento morango, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "morango",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/morango.svg"
+  },
+  {
+    "id": "alimento-033",
+    "nome": "Abacate",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/abacate.jpg",
+    "descricao": "Conheça o alimento abacate, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "abacate",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/abacate.svg"
+  },
+  {
+    "id": "alimento-034",
+    "nome": "Melancia",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/melancia.jpg",
+    "descricao": "Conheça o alimento melancia, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "melancia",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/melancia.svg"
+  },
+  {
+    "id": "alimento-035",
+    "nome": "Abacaxi",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/abacaxi.jpg",
+    "descricao": "Conheça o alimento abacaxi, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "abacaxi",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/abacaxi.svg"
+  },
+  {
+    "id": "alimento-036",
+    "nome": "Uva",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/uva.jpg",
+    "descricao": "Conheça o alimento uva, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "uva",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/uva.svg"
+  },
+  {
+    "id": "alimento-037",
+    "nome": "Pera",
+    "categoria": "Frutas",
+    "imagem": "assets/img/alimentos/pera.jpg",
+    "descricao": "Conheça o alimento pera, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "pera",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/pera.svg"
+  },
+  {
+    "id": "alimento-038",
+    "nome": "Inhame",
+    "categoria": "Legumes e hortaliças",
+    "imagem": "assets/img/alimentos/inhame.jpg",
+    "descricao": "Conheça o alimento inhame, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "inhame",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/inhame.svg"
+  },
+  {
+    "id": "alimento-039",
+    "nome": "Acelga",
+    "categoria": "Verduras",
+    "imagem": "assets/img/alimentos/acelga.jpg",
+    "descricao": "Conheça o alimento acelga, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "acelga",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/acelga.svg"
+  },
+  {
+    "id": "alimento-040",
+    "nome": "Agrião",
+    "categoria": "Verduras",
+    "imagem": "assets/img/alimentos/agriao.jpg",
+    "descricao": "Conheça o alimento agrião, suas características e sugestões de preparo.",
+    "nutrientes": null,
+    "receitas": [],
+    "revisadoPorNutricionista": false,
+    "slug": "agriao",
+    "conservacao": "Consulte as orientações específicas de armazenamento após validação da equipe responsável.",
+    "fonteNutricional": null,
+    "statusPublicacao": "aguardando_validacao",
+    "imagemCredito": null,
+    "destaque": false,
+    "imagemLocal": "assets/img/alimentos/agriao.svg"
+  }
+]
