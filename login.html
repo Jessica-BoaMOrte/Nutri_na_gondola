@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Entrar | Nutrição na Gôndola</title>
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/presentation.css">
+</head>
+<body class="auth-page">
+<header class="top">
+    <div class="wrap">
+        <a class="project-brand" href="index.html">
+            <span class="brand-symbol">✳</span>
+            <span><strong>Nutrição na Gôndola</strong><small>Projeto de educação alimentar</small></span>
+        </a>
+        <nav class="nav">
+            <a href="index.html">Voltar ao portal</a>
+            <a href="sobre.html">Sobre o projeto</a>
+        </nav>
+    </div>
+</header>
+<main class="auth-shell">
+    <section class="auth-intro">
+        <span class="eyebrow">FACULDADE DE CIÊNCIAS MÉDICAS DA SANTA CASA DE SÃO PAULO</span>
+        <h1>Um projeto que conecta educação, nutrição e tecnologia.</h1>
+        <p>Ambiente acadêmico para estudantes, professores e fornecedores acompanharem o cadastro e a revisão dos conteúdos.</p>
+        <div class="auth-features">
+            <span>✓ Interface responsiva</span>
+            <span>✓ Perfis de acesso separados</span>
+            <span>✓ Fluxo de revisão acadêmica</span>
+        </div>
+    </section>
+    <section class="auth-card" aria-label="Entrar">
+        <span class="auth-kicker">ÁREA ACADÊMICA</span>
+        <h2>Bem-vindo(a)!</h2>
+        <p>Entre com o e-mail e a senha da sua conta.</p>
+        <div id="bloco-demo" class="demo-box" hidden>
+            <p><strong>Servidor do projeto não encontrado.</strong></p>
+            <p>Este endereço é só a vitrine do projeto: aqui não há servidor para criar contas nem salvar em JSON. Explore as páginas em modo demonstração:</p>
+            <div class="demo-botoes">
+                <button type="button" data-demo="aluno">🎓 Explorar como Aluno(a)</button>
+                <button type="button" data-demo="professor">📋 Explorar como Professor(a)</button>
+                <button type="button" data-demo="supermercado">🏪 Explorar como Fornecedor</button>
+            </div>
+            <p class="small">Para testar o salvamento em JSON, rode o projeto no desktop (INICIAR.bat).</p>
+        </div>
+        <form id="login-form">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" autocomplete="email" placeholder="nome@exemplo.com" required>
+            <label for="password">Senha</label>
+            <div class="password-field">
+                <input id="password" type="password" autocomplete="current-password" placeholder="Digite sua senha" required>
+                <button type="button" id="toggle-pass" aria-label="Mostrar senha">Mostrar</button>
+            </div>
+            <button class="auth-submit" type="submit">Entrar →</button>
+            <p id="login-status" class="auth-message" role="status"></p>
+        </form>
+        <p class="auth-link" id="link-cadastro">Ainda não tem conta? <a href="cadastro.html"><strong>Criar conta</strong></a></p>
+        <p class="demo-note"><strong>Aviso:</strong> sua senha é guardada no servidor do projeto apenas como hash. Mesmo assim, não use uma senha que você usa em outros serviços.</p>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrap">
+        <p>Projeto acadêmico • Faculdade de Ciências Médicas da Santa Casa de São Paulo</p>
+    </div>
+</footer>
+<script src="js/api.js" defer></script>
+<script src="js/login.js" defer></script>
+</body>
+</html>

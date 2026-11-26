@@ -1,0 +1,145 @@
+
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+        name="description"
+        content="Projeto acadêmico de educação alimentar com informações nutricionais e receitas saudáveis."
+    >
+
+    <title>Início | Nutrição na Gôndola</title>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/presentation.css">
+</head>
+
+<body>
+
+    <header class="top">
+        <div class="wrap">
+
+            <a class="project-brand" href="index.html">
+                <span class="brand-symbol">✳</span>
+
+                <span>
+                    <strong>Nutrição na Gôndola</strong>
+                    <small>Projeto de educação alimentar</small>
+                </span>
+            </a>
+
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="index.html#alimentos">Alimentos</a>
+                <a href="qrcodes.html">QR Codes</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="login.html">Área acadêmica</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="wrap">
+
+            <span class="eyebrow">
+                Projeto de inovação e educação alimentar
+            </span>
+
+            <h1>
+                Conhecer seus alimentos é o primeiro passo para escolhas melhores.
+            </h1>
+
+            <p>
+                Descubra frutas, verduras e legumes, acompanhe conteúdos
+                nutricionais em revisão e explore receitas para o dia a dia.
+            </p>
+
+            <a class="cta" href="#alimentos">
+                Explorar alimentos →
+            </a>
+
+        </div>
+    </section>
+
+    <section class="wrap site-benefits" aria-label="Como funciona">
+
+        <div class="benefit">
+            <strong>01 · Escolha o alimento</strong>
+            <p>
+                Explore o catálogo de frutas, verduras e legumes.
+            </p>
+        </div>
+
+        <div class="benefit">
+            <strong>02 · Conheça mais</strong>
+            <p>
+                Acesse conteúdos educativos preparados para revisão nutricional.
+            </p>
+        </div>
+
+        <div class="benefit">
+            <strong>03 · Escaneie na gôndola</strong>
+            <p>
+                Use o QR Code para abrir a página no seu celular.
+            </p>
+        </div>
+
+    </section>
+
+    <main id="alimentos" class="section wrap">
+
+        <h2>Explore os alimentos</h2>
+
+        <p class="muted">
+            Um catálogo em expansão, criado para conectar as gôndolas à informação.
+        </p>
+
+        <div class="filters">
+
+            <input
+                id="search"
+                type="search"
+                aria-label="Buscar alimento"
+                placeholder="Buscar banana, cenoura, couve..."
+            >
+
+            <select id="category" aria-label="Filtrar categoria">
+                <option value="">Todas as categorias</option>
+                <option>Frutas</option>
+                <option>Verduras</option>
+                <option>Legumes e hortaliças</option>
+            </select>
+
+        </div>
+
+        <p id="count" class="muted" aria-live="polite"></p>
+
+        <div id="catalog" class="grid"></div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="wrap">
+
+            <strong>Nutrição na Gôndola</strong>
+
+            <p>
+                Projeto acadêmico de extensão • Faculdade de Ciências Médicas
+                da Santa Casa de São Paulo
+            </p>
+
+            <p>
+                Projeto acadêmico demonstrativo. Informações nutricionais
+                sujeitas à validação profissional.
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="js/api.js" defer></script><script src="js/catalogo.js" defer></script><script src="js/app.js" defer></script>
+
+</body>
+</html>
