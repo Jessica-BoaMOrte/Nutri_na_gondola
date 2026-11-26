@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Professor | Nutrição na Gôndola</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/legacy.css">
+</head>
+
+<body data-perfil="professor" data-page="dash-prof">
+
+    <div class="container">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <h2>Portal Professor</h2>
+            </div>
+            <nav class="menu" aria-label="Menu do portal">
+                <a href="dashboardprof.html" class="active"><i class="fa-solid fa-house" aria-hidden="true"></i>Dashboard</a>
+                <a href="aprovacao.html"><i class="fa-solid fa-hourglass-half" aria-hidden="true"></i>Aguardando Aprovação</a>
+                <a href="analisadas.html"><i class="fa-solid fa-circle-check" aria-hidden="true"></i>Informações Analisadas</a>
+                <a href="edicao.html"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>Editar / Excluir</a>
+                <a href="dados.html"><i class="fa-solid fa-database" aria-hidden="true"></i>Dados salvos</a>
+                <a href="../login.html" data-sair><i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>Sair</a>
+            </nav>
+        </aside>
+
+        <!-- CONTEÚDO -->
+        <main class="content">
+
+            <header>
+                <div>
+                    <h1>Painel do Professor</h1>
+                    <p>Gerencie e analise as informações enviadas pelos alunos.</p>
+                </div>
+                <div class="perfil">
+                    <div>
+                        <h4 data-usuario-nome>Professor(a)</h4>
+                        <span>Professor(a)</span>
+                    </div>
+                    <img src="../assets/img/usuarios/avatar-professor.svg" alt="Avatar do usuário">
+                </div>
+            </header>
+
+            <section class="resumo" aria-label="Resumo das análises">
+                <div class="resumo-card"><h3 data-contagem="pendente">0</h3><span>Pendentes</span></div>
+                <div class="resumo-card"><h3 data-contagem="aprovado">0</h3><span>Aprovadas</span></div>
+                <div class="resumo-card"><h3 data-contagem="rejeitado">0</h3><span>Rejeitadas</span></div>
+            </section>
+
+            <section class="cards-container">
+                <a href="aprovacao.html" class="card">
+                    <div class="icone"><i class="fa-solid fa-hourglass-half" aria-hidden="true"></i></div>
+                    <h3>Informações Aguardando Aprovação</h3>
+                    <p>Analise receitas, informações nutricionais e imagens enviadas pelos alunos.</p>
+                </a>
+                <a href="analisadas.html" class="card">
+                    <div class="icone"><i class="fa-solid fa-circle-check" aria-hidden="true"></i></div>
+                    <h3>Informações Analisadas</h3>
+                    <p>Consulte os conteúdos já aprovados ou rejeitados.</p>
+                </a>
+                <a href="edicao.html" class="card">
+                    <div class="icone"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i></div>
+                    <h3>Edição / Exclusão</h3>
+                    <p>Edite ou remova informações cadastradas pelos alunos.</p>
+                </a>
+            </section>
+
+            <footer>
+                © 2025 Faculdade de Ciências Médicas da Santa Casa de São Paulo.
+                <br>
+                Todos os direitos reservados.
+            </footer>
+
+        </main>
+
+    </div>
+
+    <script src="../js/api.js" defer></script>
+    <script src="../js/painel.js" defer></script>
+</body>
+
+</html>
